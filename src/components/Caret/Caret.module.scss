@@ -1,0 +1,22 @@
+.Caret {
+  position: absolute;
+  left: 100%;
+  top: 0;
+
+  width: 2px;
+  height: 14px;
+
+  background-color: lighten(#000000, 25%);
+
+  animation: 1s linear infinite blink;
+}
+
+@keyframes blink {
+  from {
+    opacity: 0.8;
+  }
+
+  to {
+    opacity: 0.2;
+  }
+}
